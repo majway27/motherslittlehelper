@@ -1,0 +1,16 @@
+# config template file.  Copy to config.yaml and populate values for keys.
+user: #USER
+pass: 
+service_id: 
+e_id: 
+instance: 
+child1: 
+child2: 
+date_ymd: 
+starting_date: 
+customer_id: 
+location_id: 
+next_date: 
+prev_date: 
+next_date1: 
+prev_date1: 
