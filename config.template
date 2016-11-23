@@ -1,4 +1,5 @@
 # config template file.  Copy to config.yaml and populate values for keys.
+host: https://booknow.appointment-plus.com/
 user: #USER
 pass: 
 service_id: 
