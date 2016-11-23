@@ -46,8 +46,8 @@ my_page = a.post config['host'] + config['instance'] + '/',
   "location_id" => config["location_id"],
   "id" => config["location_id"],
   "headquarters_id" => config["location_id"],
-  "service_id" => "974",
-  "e_id" => "782",
+  "service_id" => config['service_id'],
+  "e_id" => config["e_id"],
   # Set applicable children here. >0 children required.
   config["child1"] => "on",
   config["child2"] => "on",
@@ -58,7 +58,7 @@ my_page = a.post config['host'] + config['instance'] + '/',
   #"next_date" => config["next_date1"],
   #"prev_date" => config["prev_date1"],
   "starting_date" => config["starting_date"],
-  "previous_service_id" => "974",
+  "previous_service_id" => config['service_id'],
   # Set desired appointment date
   "date_ymd" => config["date_ymd"]
 
