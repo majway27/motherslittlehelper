@@ -1,16 +1,31 @@
-# config template file.  Copy to config.yaml and populate values for keys.
+## Config template file.  Copy to config.yaml and populate values for keys.
+
+# Access Related
 host: https://booknow.appointment-plus.com/
 user: #USER
 pass: 
-service_id: 
-e_id: 
 instance: 
-child1: 
-child2: 
-date_ymd: 
-starting_date: 
 customer_id: 
 location_id: 
+
+# Service Related
+first_appt_time: 
+last_appt_time: 
+service_id: 
+e_id: 
+child1: 
+child2: 
+# Pipe delinated
+selected_children: 
+child_count: 
+# Comma delinated
+children_list: 
+
+# Scheduling Related
+appt_start_time: 
+appt_end_time: 
+date_ymd: 
+starting_date: 
 next_date: 
 prev_date: 
 next_date1: 
